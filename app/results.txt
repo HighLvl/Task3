@@ -21,11 +21,11 @@ yohanson - 32302
 alex_hitman - 27042
 mike_lyulyukin - 26618
 maximaximax - 26484
-Географ - 25685
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 25685
 velonavt - 24863
 MAS - 21969
 rockcreek - 20626
-Павел Яринюк - 20197
+пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - 20197
 VlIvYur - 19264
 katpatuka - 18049
 Nikolaev - 17004
@@ -40,7 +40,7 @@ vanomel - 11103
 Karaban2008 - 10728
 andrewK - 10011
 malic - 10003
-Басмач - 9446
+пїЅпїЅпїЅпїЅпїЅпїЅ - 9446
 vanchester - 6419
 SunWind1076 - 6053
 PARKER1979 - 5820
@@ -50,7 +50,7 @@ usama - 5286
 ordorub - 5230
 Shtirlits - 4642
 Fenuks - 4537
-Ошкуй - 4528
+пїЅпїЅпїЅпїЅпїЅ - 4528
 Z440 - 4523
 F1ex - 4499
 Anatoli - 4441
@@ -81,7 +81,7 @@ MichaelCollinson - 2064
 OldIvantey - 1817
 lmaximov - 1738
 Dharma-ae - 1731
-Виталий Махно - 1639
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - 1639
 v-ozersk - 1637
 MrYadro - 1602
 Vlad2011_2011 - 1519
@@ -95,10 +95,10 @@ Spol81 - 1298
 Xmypblu - 1279
 test67 - 1279
 Mob!us - 1254
-МаксимГавронин - 1226
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 1226
 ffk - 1188
-Komяpa - 1175
-Эцелоп - 1124
+KomпїЅpa - 1175
+пїЅпїЅпїЅпїЅпїЅпїЅ - 1124
 Kostik - 1112
 Slau - 1092
 Cronium - 1018
@@ -115,7 +115,7 @@ RSergei - 903
 Whitenight - 893
 Stane - 865
 donprogramist - 853
-Александр Обливальный - 806
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 806
 Dommel5 - 765
 apLight - 747
 jmaks - 747
@@ -126,7 +126,7 @@ Dyom - 717
 dkiselev - 709
 demon1981 - 707
 layt - 704
-Андрей Дунаев - 691
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - 691
 Golovco Anatolie - 688
 literan - 667
 LeonidDemidow - 662
@@ -191,15 +191,15 @@ Ramir - 287
 Yuri Zimin - 284
 Xray2 - 279
 keepright! er - 276
-Букин - 275
+пїЅпїЅпїЅпїЅпїЅ - 275
 Greensk - 275
 aleksey777 - 273
-Айган - 269
+пїЅпїЅпїЅпїЅпїЅ - 269
 mkolomeitsev - 268
 doga - 266
 KartaBY - 256
 Dmitry Y - 244
-Федосов Сергей - 233
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - 233
 chnav - 231
 Andrej293 - 225
 Egor Kalinovsky - 213
@@ -209,7 +209,7 @@ _VAsek_ - 202
 Dimcus - 202
 polemiker10 - 199
 brlumen - 194
-Алекс812 - 186
+пїЅпїЅпїЅпїЅпїЅ812 - 186
 s1eepwa1ker - 184
 Runich - 181
 dostalker - 175
@@ -239,7 +239,7 @@ Practix - 138
 aptala - 136
 RymenarNsk - 135
 ipp1963 - 134
-Санчес - 130
+пїЅпїЅпїЅпїЅпїЅпїЅ - 130
 Azork - 128
 webart50 - 128
 samely - 128
@@ -261,13 +261,13 @@ xakpc - 106
 Ruffian - 105
 Citibiker - 104
 Sergey001 - 104
-Беломир - 101
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 101
 Voldemar0 - 97
 Akela710 - 96
 vGross - 95
 Max Vasilev - 95
 Evrozvuk - 94
-Андрей Омельчук - 92
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 92
 dedok - 92
 KartaFan - 92
 AlRight - 87
@@ -284,13 +284,13 @@ agamemn - 79
 kamondir - 79
 sfedor - 79
 ssv - 79
-Евген1991 - 78
+пїЅпїЅпїЅпїЅпїЅ1991 - 78
 Felis Pimeja - 77
 LamerXaKer - 77
 abel801 - 77
 Volchara - 76
 AliasVector - 75
-Зайцева Алена - 73
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - 73
 Silent7 - 72
 vfjj - 72
 Kirasir - 71
@@ -309,7 +309,7 @@ kotofos - 60
 alexderev - 60
 Paul Shmarev - 59
 fubor76 - 59
-Макс - 59
+пїЅпїЅпїЅпїЅ - 59
 sibwest - 59
 i-l-j-a - 58
 arcth - 57
@@ -327,7 +327,7 @@ maria159 - 50
 Vbif - 50
 max630 - 50
 turula - 49
-Влад_chip - 49
+пїЅпїЅпїЅпїЅ_chip - 49
 AnVas - 48
 Rimdus - 47
 VTanya - 46
@@ -340,7 +340,7 @@ Ensay - 42
 emptySA - 42
 TourenHannes - 42
 arteam - 41
-Михаил Борисов - 40
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 40
 Nikomuro - 40
 zSilas - 40
 Aldorens - 40
@@ -363,7 +363,7 @@ oldmen - 36
 Rockstar - 36
 Nikolaich - 36
 eugennik - 36
-Андрей_SwEm - 35
+пїЅпїЅпїЅпїЅпїЅпїЅ_SwEm - 35
 vespex - 35
 _govorilka - 35
 Den3309 - 35
@@ -380,10 +380,10 @@ Vadim Zudkin - 32
 ArnoldAleksandr - 31
 MBear - 31
 dmOx - 30
-Мехаил - 30
+пїЅпїЅпїЅпїЅпїЅпїЅ - 30
 Romanso - 29
-Виктория - 29
-Маргарита - 29
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 29
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 29
 torovec - 29
 Lehansk90 - 29
 amtor47 - 29
@@ -399,7 +399,7 @@ snr - 27
 Yarroslav - 27
 rumigu - 26
 Badani - 26
-Дядя Алекс - 26
+пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - 26
 LittlePONNY - 26
 den0508 - 25
 Pavel1377 - 25
@@ -409,7 +409,7 @@ woodpeck_repair - 25
 raf_gps - 25
 staytuned - 25
 Koljan87 - 25
-Аннэтик - 25
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 25
 Dmitry Olyenyov - 24
 Juli-li - 24
 axelr - 23
@@ -426,7 +426,7 @@ kremlao - 22
 yalfhg - 22
 rbuch703 - 22
 RomanZar - 22
-камикадзе - 22
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 22
 kupino-cck - 21
 fernando_67 - 21
 ~Grek~ - 21
@@ -438,10 +438,10 @@ redopium - 20
 pyadov - 19
 Alexiofx - 19
 Exella - 19
-Ольга26 - 19
+пїЅпїЅпїЅпїЅпїЅ26 - 19
 Wol1981 - 18
 Nesmero - 18
-Алина Рюмшина - 18
+пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 18
 hazardm - 18
 Mir76 - 18
 Kanieva_Maria - 17
@@ -457,21 +457,21 @@ SuperJet59rus - 15
 XaE - 15
 Karahagen - 15
 mad_sanity - 15
-Елена123456789 - 14
+пїЅпїЅпїЅпїЅпїЅ123456789 - 14
 Ordin - 14
 AxiS - 14
 baks72 - 14
-Романенко София - 14
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - 14
 novodim - 14
 KonoSV - 14
 Andrei Polushin - 14
-Лариса Насырова - 14
-M I†I S - 14
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 14
+M IпїЅI S - 14
 Just55 - 13
 patashnik - 13
 bober953 - 13
 Estetic Service - 13
-osm-kazakhstan - 13
+ru.nsu.cherepanov.osm-kazakhstan - 13
 Peter Suvorov - 13
 IqRus - 12
 maynich - 12
@@ -482,8 +482,8 @@ ullus - 12
 Uzhur - 12
 develmax - 12
 nafania - 12
-Александр Александрович - 11
-Шурка - 11
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 11
+пїЅпїЅпїЅпїЅпїЅ - 11
 demonlord32 - 11
 birkoff - 11
 serj02 - 11
@@ -499,17 +499,17 @@ Sirozha - 10
 Striker2000 - 10
 MaxS - 10
 Al6ka - 10
-Sekt® - 10
+SektпїЅ - 10
 Chekotryas - 10
 GoodOk - 10
 aos1986 - 10
-Андрей2013 - 10
+пїЅпїЅпїЅпїЅпїЅпїЅ2013 - 10
 Eugene Muzychenko - 10
-Илья Усенко - 10
+пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - 10
 guest - 9
 leonet - 9
 SVA - 9
-Михаил Новиков - 9
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 9
 Gluk02 - 9
 pilat - 9
 MakcuM_1984 - 9
@@ -520,13 +520,13 @@ Detonator - 8
 Vvs2 - 8
 VadimZ - 8
 Storm-Sli - 8
-КсенияЭБА - 8
-Володя71 - 8
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 8
+пїЅпїЅпїЅпїЅпїЅпїЅ71 - 8
 2008vit - 8
 Mogamashina - 8
 Lyubchenko Denis - 8
-Анастасия Сергеевна - 8
-Фурманов - 8
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 8
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 8
 Vadim Ippolitov - 8
 drewy - 8
 Anton Dessiatov - 8
@@ -544,9 +544,9 @@ EvgeniaB - 7
 armahema - 7
 natanga - 7
 lionS - 7
-сибиряк54 - 7
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ54 - 7
 jatisw - 7
-Митёк - 7
+пїЅпїЅпїЅпїЅ - 7
 Zverik - 7
 Jim_Di - 7
 void_nsk - 6
@@ -565,9 +565,9 @@ D is Developer - 6
 hadhuey - 6
 Alisha - 6
 peshkov - 6
-Ник С - 6
+пїЅпїЅпїЅ пїЅ - 6
 Zkir - 5
-Долана - 5
+пїЅпїЅпїЅпїЅпїЅпїЅ - 5
 Sargis-T111 - 5
 gwinder - 5
 Pas - 5
@@ -578,7 +578,7 @@ Inok - 5
 MaximNikiforov - 5
 Barmagon - 5
 Miheich - 5
-Анжела - 5
+пїЅпїЅпїЅпїЅпїЅпїЅ - 5
 metrosib - 5
 Anrock - 5
 omagic - 5
@@ -603,17 +603,17 @@ ToGr - 4
 apca - 4
 ediyes - 4
 elena20112602 - 4
-Евгений Юркин - 4
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - 4
 landfahrer - 4
 De14ri10ng - 4
 taeno - 4
-снежа - 4
-Sen-Я - 4
+пїЅпїЅпїЅпїЅпїЅ - 4
+Sen-пїЅ - 4
 Skomoroshka - 4
 b108 - 4
 atsman - 4
 Doggers - 4
-Ермак - 4
+пїЅпїЅпїЅпїЅпїЅ - 4
 dedNikifor - 4
 BiIbo - 4
 andygol - 4
@@ -624,19 +624,19 @@ malcolmh - 4
 Luis36995 - 4
 masha33 - 4
 share-ware - 4
-Отличница - 4
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 4
 Vladimir Gin - 4
 BORZOTA - 4
 KlaydF - 4
 pbav - 4
 ignat_b - 4
-дизилист - 4
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 4
 IainMaclean - 4
-Евгенова Людмила - 4
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 4
 Ksk91 - 4
 VeloNightGroup - 4
 mrmurrdoc - 4
-аркан - 4
+пїЅпїЅпїЅпїЅпїЅ - 4
 salik154 - 4
 Petja - 4
 Niker - 4
@@ -646,7 +646,7 @@ srez - 4
 Kutuzov_optim - 4
 DIMM54ka - 4
 StasPekur - 4
-Катерина* - 3
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ* - 3
 Yuliya28 - 3
 TSA21432 - 3
 fomichenko - 3
@@ -657,7 +657,7 @@ kuzmatsukanov - 3
 ksenia - 3
 art2010 - 3
 Vladislav Naumov - 3
-Андрей Головин - 3
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 3
 alex_img - 3
 MaryVeryTheOne - 3
 Dr Kludge - 3
@@ -672,7 +672,7 @@ Sergey Dorokhin - 3
 IGNAT_VELIKIY - 3
 nikolamedik - 3
 Kazikin - 3
-Вероника93 - 3
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ93 - 3
 fris - 3
 GanKo - 3
 Vyvern - 3
@@ -688,8 +688,8 @@ Andrey-N - 2
 maggot27 - 2
 1234glaz - 2
 igor1969 - 2
-вахтовик - 2
-Маша1993 - 2
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 2
+пїЅпїЅпїЅпїЅ1993 - 2
 Ashlee - 2
 Golova - 2
 stewie_fisher - 2
@@ -698,7 +698,7 @@ Vazhnov Alexey - 2
 uno3_2012 - 2
 alniro1961 - 2
 kalmar - 2
-Алех - 2
+пїЅпїЅпїЅпїЅ - 2
 al56 - 2
 VIPstars - 2
 Saveli - 2
@@ -711,7 +711,7 @@ zverevsergei - 2
 zed-nsk - 2
 k555211 - 2
 ken826 - 2
-О+л+я - 2
+пїЅ+пїЅ+пїЅ - 2
 lexa36588 - 2
 KekcuHa - 2
 Saniga85 - 2
@@ -719,12 +719,12 @@ bossleo - 2
 yaleks - 2
 dr_hertz - 2
 iHedonist - 1
-алекса-алексей - 1
+пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 1
 Hassium - 1
 xof - 1
 Rub21 - 1
 Tropina Olesya - 1
-Иван Краус - 1
+пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - 1
 katoshi - 1
 ruthmaben - 1
 inferst - 1
@@ -734,7 +734,7 @@ SMP - 1
 Collide205 - 1
 Yura Svetlanov - 1
 serikst - 1
-Дведь - 1
+пїЅпїЅпїЅпїЅпїЅ - 1
 ajk - 1
 snixxzz - 1
 eugene3306 - 1
@@ -773,9 +773,9 @@ asfintesco - 1
 Pavel Konovalov - 1
 stenl - 1
 Pudich - 1
-ЗZZZ - 1
+пїЅZZZ - 1
 leshey - 1
-ксения козлова - 1
+пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 1
 letchik - 1
 Claudius Henrichs - 1
 Alexey Spiridonov - 1
@@ -794,7 +794,7 @@ Classen - 1
 Stanislav Novosibirsk - 1
 k1pro - 1
 greywind - 1
-Сергей N - 1
+пїЅпїЅпїЅпїЅпїЅпїЅ N - 1
 uboot - 1
 andrewa78 - 1
 Syl - 1
@@ -986,7 +986,7 @@ maxspeed - 6
 park_ride - 6
 tunnel - 6
 bing:offset - 6
-admin_cеntre - 6
+admin_cпїЅntre - 6
 triple_tower - 6
 leaf_cycle - 6
 maxwidth - 6

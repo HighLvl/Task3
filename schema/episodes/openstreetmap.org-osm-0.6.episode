@@ -8,33 +8,33 @@ Any modifications to this file will be lost upon recompilation of the source sch
 Generated on: 2022.04.04 at 12:27:43 AM NOVT 
 
   -->
-  <bindings scd="x-schema::tns" xmlns:tns="http://openstreetmap.org/osm/0.6">
+  <bindings scd="x-schema::tns" xmlns:tns="http://openstreetmap.org/ru.nsu.cherepanov.osm/0.6">
     <schemaBindings map="false">
-      <package name="osm.model.generated"/>
+      <package name="ru.nsu.cherepanov.osm.model.generated"/>
     </schemaBindings>
-    <bindings scd="tns:osm">
-      <class ref="osm.model.generated.Osm"/>
+    <bindings scd="tns:ru.nsu.cherepanov.osm">
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Osm"/>
     </bindings>
     <bindings scd="tns:bounds">
-      <class ref="osm.model.generated.Bounds"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Bounds"/>
     </bindings>
     <bindings scd="tns:node">
-      <class ref="osm.model.generated.Node"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Node"/>
     </bindings>
     <bindings scd="tns:tag">
-      <class ref="osm.model.generated.Tag"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Tag"/>
     </bindings>
     <bindings scd="tns:way">
-      <class ref="osm.model.generated.Way"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Way"/>
     </bindings>
     <bindings scd="tns:nd">
-      <class ref="osm.model.generated.Nd"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Nd"/>
     </bindings>
     <bindings scd="tns:relation">
-      <class ref="osm.model.generated.Relation"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Relation"/>
     </bindings>
     <bindings scd="tns:member">
-      <class ref="osm.model.generated.Member"/>
+      <class ref="ru.nsu.cherepanov.osm.model.generated.Member"/>
     </bindings>
   </bindings>
 </bindings>
