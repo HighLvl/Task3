@@ -9,6 +9,7 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+    id("com.github.jacobono.jaxb") version "1.3.5"
 }
 
 repositories {
@@ -25,11 +26,23 @@ dependencies {
 
     implementation("org.apache.commons:commons-compress:1.21")
     implementation("commons-cli:commons-cli:1.5.0")
+
+    implementation("com.sun.xml.bind:jaxb-core:3.0.2")
+    runtimeOnly("javax.xml.bind:jaxb-api:2.3.1")
+    runtimeOnly("com.sun.xml.bind:jaxb-impl:3.0.0")
+
+    jaxb("com.sun.xml.bind:jaxb-xjc:3.0.2")
+    jaxb("javax.xml.bind:jaxb-api:2.3.1")
+    jaxb("com.sun.xml.bind:jaxb-impl:3.0.0")
+    jaxb("jakarta.xml.bind:jakarta.xml.bind-api:3.0.0")
+
+    implementation("org.postgresql:postgresql:42.3.3")
 }
+
 
 application {
     // Define the main class for the application.
-    mainClass.set("task1.App")
+    mainClass.set("task.App")
 }
 
 tasks.named<Test>("test") {
@@ -39,6 +52,13 @@ tasks.named<Test>("test") {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(16))
+        languageVersion.set(JavaLanguageVersion.of(14))
+    }
+}
+
+jaxb {
+    xsdDir = "app/src/main/resources"
+    xjc {
+        generatePackage = "osm.model.generated"
     }
 }
