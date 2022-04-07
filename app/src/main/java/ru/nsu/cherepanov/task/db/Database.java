@@ -55,25 +55,40 @@ public class Database {
     private void createTables() throws SQLException {
         var statement = connection.createStatement();
         logger.info("Create tables begin " + connection.getCatalog());
-        var createNodeTableQuery = "CREATE TABLE Node (\n" +
-                "id int NOT NULL,\n" +
-                "lat float NOT NULL,\n" +
-                "lon float NOT NULL,\n" +
-                "user_name varchar NOT NULL,\n" +
-                "uid int NOT NULL,\n" +
-                "version int NOT NULL,\n" +
-                "changeset int NOT NULL,\n" +
-                "timestamp timestamp NOT NULL,\n" +
-                "PRIMARY KEY (id)\n" + ");";
-        statement.executeUpdate(createNodeTableQuery);
-        logger.info("Node table created");
-        var createTagTableQuery = "CREATE TABLE Tag (\n" +
-                "node_id INT NOT NULL,\n" +
-                "k varchar NOT NULL,\n" +
-                "v varchar NOT NULL,\n" +
-                "PRIMARY KEY (node_id, k),\n" +
-                "FOREIGN KEY (node_id) REFERENCES Node (id)\n" + ");";
-        statement.executeUpdate(createTagTableQuery);
-        logger.info("Tag table created");
+        var query = "CREATE EXTENSION hstore;\n" +
+                "CREATE TYPE member AS (type varchar, ref bigint, role varchar);\n" +
+                "CREATE TABLE relation (id int8 NOT NULL,\n" +
+                "                user_name varchar NOT NULL,\n" +
+                "                uid bigint NOT NULL,\n" +
+                "                version bigint NOT NULL,\n" +
+                "                changeset bigint NOT NULL,\n" +
+                "                timestamp timestamp NOT NULL,\n" +
+                "                members member[] NOT NULL,\n" +
+                "                tags hstore NOT NULL,\n" +
+                "                PRIMARY KEY (id));\n" +
+                "\t\t\t\t\n" +
+                "CREATE TABLE Node (\n" +
+                "                id bigint NOT NULL,\n" +
+                "                lat float8 NOT NULL,\n" +
+                "                lon float8 NOT NULL,\n" +
+                "                user_name varchar NOT NULL,\n" +
+                "                uid bigint NOT NULL,\n" +
+                "                version bigint NOT NULL,\n" +
+                "                changeset bigint NOT NULL,\n" +
+                "                timestamp timestamp NOT NULL,\n" +
+                "\t            tags hstore NOT NULL,\n" +
+                "                PRIMARY KEY (id));\n" +
+                "CREATE TABLE Way (\n" +
+                "                id bigint NOT NULL,\n" +
+                "                user_name varchar NOT NULL,\n" +
+                "                uid bigint NOT NULL,\n" +
+                "                version bigint NOT NULL,\n" +
+                "                changeset bigint NOT NULL,\n" +
+                "                timestamp timestamp NOT NULL,\n" +
+                "\t            refs bigint[] NOT NULL,\n" +
+                "\t\t        tags hstore NOT NULL,\n" +
+                "                PRIMARY KEY (id));\t\t\t\t";
+        statement.executeUpdate(query);
+        logger.info("Tables created");
     }
 }

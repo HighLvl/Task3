@@ -21,9 +21,6 @@ dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.2")
 
-    implementation("org.apache.logging.log4j:log4j-api:2.17.2")
-    implementation("org.apache.logging.log4j:log4j-core:2.17.2")
-
     implementation("org.apache.commons:commons-compress:1.21")
     implementation("commons-cli:commons-cli:1.5.0")
 
@@ -37,6 +34,16 @@ dependencies {
     jaxb("jakarta.xml.bind:jakarta.xml.bind-api:3.0.0")
 
     implementation("org.postgresql:postgresql:42.3.3")
+
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.6.6") {
+        exclude("org.springframework.boot", "spring-boot-starter-logging")
+    }
+    implementation("org.springframework.boot:spring-boot-starter-web:2.6.6") {
+        exclude("org.springframework.boot", "spring-boot-starter-logging")
+    }
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j2
+    implementation("org.springframework.boot:spring-boot-starter-log4j2:2.6.6")
+
 }
 
 

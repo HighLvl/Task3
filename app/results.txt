@@ -1164,3 +1164,5 @@ old_name:en - 1
 attribution - 1
 category - 1
 
+Nodes per second: 99342
+

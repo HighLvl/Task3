@@ -2,6 +2,7 @@ package ru.nsu.cherepanov.task.dao;
 
 import ru.nsu.cherepanov.task.entity.NodeEntity;
 
+import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -13,8 +14,8 @@ public class NodeDao extends Dao<NodeEntity> {
 
     @Override
     protected PreparedStatement createInsertPreparedStatement() throws SQLException {
-        return connection.prepareStatement("INSERT INTO NODE(id, lat, lon, user_name, uid, version, changeset, timestamp)\n" +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+        return connection.prepareStatement("INSERT INTO NODE(id, lat, lon, user_name, uid, version, changeset, timestamp, tags)\n" +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, hstore(?, ?))");
     }
 
     @Override
@@ -32,13 +33,18 @@ public class NodeDao extends Dao<NodeEntity> {
 
     @Override
     protected void prepareInsertStatement(NodeEntity entity) throws SQLException {
-        insertPreparedStatement.setLong(1, entity.getId());
+        insertPreparedStatement.setBigDecimal(1, new BigDecimal(entity.getId()));
         insertPreparedStatement.setDouble(2, entity.getLat());
         insertPreparedStatement.setDouble(3, entity.getLon());
         insertPreparedStatement.setString(4, entity.getUserName());
-        insertPreparedStatement.setLong(5, entity.getUid());
-        insertPreparedStatement.setInt(6, entity.getVersion());
-        insertPreparedStatement.setLong(7, entity.getChangeset());
+        insertPreparedStatement.setBigDecimal(5, new BigDecimal(entity.getUid()));
+        insertPreparedStatement.setBigDecimal(6, new BigDecimal(entity.getVersion()));
+        insertPreparedStatement.setBigDecimal(7, new BigDecimal(entity.getChangeset()));
         insertPreparedStatement.setTimestamp(8, entity.getTimestamp());
+        insertPreparedStatement.setArray(9,
+                connection.createArrayOf("text", entity.getTags().keySet().toArray()));
+        insertPreparedStatement.setArray(10,
+                connection.createArrayOf("text", entity.getTags().values().toArray()));
+
     }
 }

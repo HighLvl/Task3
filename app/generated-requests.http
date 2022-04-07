@@ -1,0 +1,234 @@
+### NODE ###
+###
+POST http://localhost:8100/osm/node/create
+Content-Type: application/json
+
+{
+  "id": 1,
+  "version": 30,
+  "timestamp": "2015-01-01T11:00:00Z",
+  "uid": 333,
+  "userName": "user1",
+  "changeset": 8473234,
+  "lat": 54.889147,
+  "lon": 83.073432,
+  "tags": [
+    {
+      "k": "place",
+      "v": "city"
+    },
+    {
+      "k": "population",
+      "v": "1547910"
+    },
+    {
+      "k": "population.date",
+      "v": "2014-01-01T11:00:00Z"
+    }
+  ]
+}
+
+<> 2022-04-07T143800.409.txt
+<> 2022-04-07T143344.200.json
+
+###
+DELETE http://localhost:8100/osm/node/delete/1
+
+###
+GET http://localhost:8100/osm/node/1
+
+<> 2022-04-07T143725.200.json
+<> 2022-04-07T141219.404.txt
+<> 2022-04-07T125753.200.json
+<> 2022-04-07T123942.200.json
+<> 2022-04-07T123810.200.json
+<> 2022-04-07T122259.200.json
+<> 2022-04-07T121854.200.json
+<> 2022-04-07T115739.200.json
+<> 2022-04-07T115703.200.json
+<> 2022-04-07T115501.200.json
+<> 2022-04-07T114837.200.json
+<> 2022-04-07T114121.200.json
+<> 2022-04-05T230731.200.json
+
+###
+POST http://localhost:8100/osm/node/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "version": 30,
+  "timestamp": "2015-01-01T11:00:00Z",
+  "uid": 343,
+  "userName": "user1",
+  "changeset": 8473234,
+  "lat": 54.889147,
+  "lon": 83.073432,
+  "tags": [
+    {
+      "k": "place",
+      "v": "city"
+    }
+  ]
+}
+
+<> 2022-04-05T225504.404.txt
+
+###
+GET http://localhost:8100/osm/node/nodesByRadius?lon=83.07344&lat=54.83&radius=1000
+
+###
+GET http://localhost:8100/osm/relation/7660
+
+<> 2022-04-07T141524.404.txt
+<> 2022-04-07T141459.200.json
+<> 2022-04-07T141254.200.json
+<> 2022-04-07T134116.200.json
+
+###
+DELETE http://localhost:8100/osm/relation/delete/7660
+
+<> 2022-04-07T141520.200.json
+<> 2022-04-07T134224.404.txt
+<> 2022-04-07T134219.200.json
+
+### RELATION ###
+###
+POST http://localhost:8100/osm/relation/create
+Content-Type: application/json
+
+{
+  "id": 7660,
+  "userName": "rbuch703",
+  "uid": 687237,
+  "version": 42,
+  "changeset": 30037988,
+  "timestamp": "2015-04-07T12:16:58.000+00:00",
+  "tags": [
+    {
+      "k": "name:ru",
+      "v": "Обь"
+    },
+    {
+      "k": "int_name",
+      "v": "Ob"
+    }
+  ],
+  "members": [
+    {
+      "type": "way",
+      "ref": 52250880,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 33407728,
+      "role": "outer"
+    }
+  ]
+}
+
+<> 2022-04-07T141124.200.json
+
+###
+POST http://localhost:8100/osm/relation/update
+Content-Type: application/json
+
+{
+  "id": 7660,
+  "userName": "rbuch703",
+  "uid": 687237,
+  "version": 427,
+  "changeset": 30037988,
+  "timestamp": "2015-04-07T12:16:58.000+00:00",
+  "tags": [
+    {
+      "k": "name:ru",
+      "v": "Обjь"
+    }
+  ],
+  "members": [
+    {
+      "type": "wa;pl;lly",
+      "ref": 52250880,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 33407728,
+      "role": "outer"
+    }
+  ]
+}
+
+<> 2022-04-07T141404.200.json
+
+### WAY ###
+###
+GET http://localhost:8100/osm/way/9933359
+
+<> 2022-04-07T143017.200.json
+<> 2022-04-07T141956.200.json
+<> 2022-04-07T141608.200.json
+
+###
+POST http://localhost:8100/osm/way/create
+Content-Type: application/json
+
+{
+  "id": 9933359,
+  "userName": "parukhin",
+  "uid": 519501,
+  "version": 37,
+  "changeset": 10821297,
+  "timestamp": "2012-02-28T18:35:33.000+00:00",
+  "refs": [
+    660988833,
+    81445871
+  ],
+  "tags": [
+    {
+      "k": "name:ru",
+      "v": "Обь"
+    },
+    {
+      "k": "int_name",
+      "v": "Ob"
+    }
+  ]
+}
+
+<> 2022-04-07T143829.409.txt
+<> 2022-04-07T142933.200.json
+<> 2022-04-07T141950.200.json
+
+###
+DELETE http://localhost:8100/osm/way/delete/9933359
+
+<> 2022-04-07T142924.200.json
+<> 2022-04-07T141942.404.txt
+<> 2022-04-07T141937.200.json
+
+###
+POST http://localhost:8100/osm/way/update
+Content-Type: application/json
+
+{
+  "id": 9933359,
+  "userName": "parukhin",
+  "uid": 519501,
+  "version": 368,
+  "changeset": 10821297,
+  "timestamp": "2012-02-28T18:35:33.000+00:00",
+  "refs": [
+    660988833
+  ],
+  "tags": [
+    {
+      "k": "name:ru",
+      "v": "Обь"
+    }
+  ]
+}
+
+<> 2022-04-07T142943.200.json

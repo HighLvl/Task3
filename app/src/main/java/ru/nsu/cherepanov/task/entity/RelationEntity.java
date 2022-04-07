@@ -1,39 +1,39 @@
 package ru.nsu.cherepanov.task.entity;
 
+import org.hibernate.annotations.Formula;
+import org.hibernate.annotations.Type;
+
 import javax.persistence.*;
 import java.math.BigInteger;
 import java.sql.Timestamp;
+import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
 @Entity
-@Table(name = "node", schema = "public", catalog = "osm")
-public class NodeEntity {
+@Table(name = "relation", schema = "public", catalog = "osm")
+public class RelationEntity {
     private BigInteger id;
-    private double lat;
-    private double lon;
     private String userName;
     private BigInteger uid;
     private BigInteger version;
     private BigInteger changeset;
     private Timestamp timestamp;
     private Map<String, String> tags;
+    private List<Member> members;
 
-    public NodeEntity(BigInteger id, double lat, double lon, String userName, BigInteger uid, BigInteger version, BigInteger changeset, Timestamp timestamp, Map<String, String> tags) {
+    public RelationEntity(BigInteger id, String userName, BigInteger uid, BigInteger version, BigInteger changeset, Timestamp timestamp, Map<String, String> tags, List<Member> members) {
         this.id = id;
-        this.lat = lat;
-        this.lon = lon;
         this.userName = userName;
         this.uid = uid;
         this.version = version;
         this.changeset = changeset;
         this.timestamp = timestamp;
         this.tags = tags;
+        this.members = members;
     }
 
-    public NodeEntity() {
-
-    }
+    public RelationEntity() { }
 
     @Convert(converter = MyHStoreConverter.class)
     @Column(name = "tags")
@@ -45,6 +45,16 @@ public class NodeEntity {
         this.tags = tags;
     }
 
+    @Type(type = "ru.nsu.cherepanov.task.entity.MembersType")
+    @Column(name = "members", columnDefinition = "member[]")
+    public List<Member> getMembers() {
+        return members;
+    }
+
+    public void setMembers(List<Member> members) {
+        this.members = members;
+    }
+
     @Id
     @Column(name = "id")
     public BigInteger getId() {
@@ -53,26 +63,6 @@ public class NodeEntity {
 
     public void setId(BigInteger id) {
         this.id = id;
-    }
-
-    @Basic
-    @Column(name = "lat")
-    public double getLat() {
-        return lat;
-    }
-
-    public void setLat(double lat) {
-        this.lat = lat;
-    }
-
-    @Basic
-    @Column(name = "lon")
-    public double getLon() {
-        return lon;
-    }
-
-    public void setLon(double lon) {
-        this.lon = lon;
     }
 
     @Basic
@@ -129,27 +119,26 @@ public class NodeEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        NodeEntity that = (NodeEntity) o;
-        return Double.compare(that.lat, lat) == 0 && Double.compare(that.lon, lon) == 0 && id.equals(that.id) && userName.equals(that.userName) && uid.equals(that.uid) && version.equals(that.version) && changeset.equals(that.changeset) && timestamp.equals(that.timestamp) && tags.equals(that.tags);
+        RelationEntity that = (RelationEntity) o;
+        return id.equals(that.id) && userName.equals(that.userName) && uid.equals(that.uid) && version.equals(that.version) && changeset.equals(that.changeset) && timestamp.equals(that.timestamp);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, lat, lon, userName, uid, version, changeset, timestamp, tags);
+        return Objects.hash(id, userName, uid, version, changeset, timestamp);
     }
 
     @Override
     public String toString() {
-        return "NodeEntity{" +
+        return "RelationEntity{" +
                 "id=" + id +
-                ", lat=" + lat +
-                ", lon=" + lon +
                 ", userName='" + userName + '\'' +
                 ", uid=" + uid +
                 ", version=" + version +
                 ", changeset=" + changeset +
                 ", timestamp=" + timestamp +
                 ", tags=" + tags +
+                ", members=" + members +
                 '}';
     }
 }

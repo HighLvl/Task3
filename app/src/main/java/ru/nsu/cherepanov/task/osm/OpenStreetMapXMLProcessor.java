@@ -1,11 +1,10 @@
-package ru.nsu.cherepanov.task;
+package ru.nsu.cherepanov.task.osm;
 
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.nsu.cherepanov.osm.model.generated.Node;
-import ru.nsu.cherepanov.osm.model.generated.Tag;
+import ru.nsu.cherepanov.osm.model.generated.*;
 
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
@@ -32,15 +31,19 @@ public final class OpenStreetMapXMLProcessor {
         this.handler = handler;
     }
 
-    void process() throws XMLStreamException, JAXBException {
-        var unmarshaller = JAXBContext.newInstance(Node.class).createUnmarshaller();
+    public void process() throws XMLStreamException, JAXBException {
+        var unmarshaller = JAXBContext.newInstance(Node.class, Way.class, Relation.class).createUnmarshaller();
         while (xmlReader.hasNext()) {
             var event = xmlReader.next();
-            if (event == XMLStreamConstants.START_ELEMENT && "node".equals(xmlReader.getLocalName())) {
-                var node = (Node) unmarshaller.unmarshal(xmlReader);
-                processNode(node);
+            if (event == XMLStreamConstants.START_ELEMENT) {
+                switch (xmlReader.getLocalName()) {
+                    case "node" -> processNode((Node) unmarshaller.unmarshal(xmlReader));
+                    case "way" -> processWay((Way) unmarshaller.unmarshal(xmlReader));
+                    case "relation" -> processRelation((Relation) unmarshaller.unmarshal(xmlReader));
+                }
             }
         }
+        handler.finish();
     }
 
     private void processNode(Node node) {
@@ -57,6 +60,13 @@ public final class OpenStreetMapXMLProcessor {
     private void incEntryValueWithKeyFromAttr(Map<String, Integer> map, String key) {
         var nextNumber = map.getOrDefault(key, 0) + 1;
         map.put(key, nextNumber);
+    }
+
+    private void processWay(Way way) {
+        handler.handleWay(way);
+    }
+    private void processRelation(Relation relation) {
+        handler.handleRelation(relation);
     }
 
     private static class XsiTypeReader extends StreamReaderDelegate {
